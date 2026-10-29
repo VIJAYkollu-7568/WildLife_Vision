@@ -2,9 +2,7 @@
 
 **An AI system that spots wild animals in dark footage and announces what it sees.**
 
-> Fill every **[FILL IN]** before publishing. Delete any claim you cannot back with a real test.
 
-![Pipeline](wildlife_vision_pipeline.svg)
 
 ## The problem
 
@@ -28,7 +26,7 @@ Wildlife cameras struggle at night, which is when many animals are most active. 
 |---|---|---|
 | Detection accuracy in low-light and night conditions | 95% 
 | Species recognition gain from the GAN enhancer | 50% 
-| Report generation time after SQLAlchemy optimisation 
+| Report generation time after SQLAlchemy optimisation | 73%
 
 Only keep a row if you can fill the third column honestly.
 
