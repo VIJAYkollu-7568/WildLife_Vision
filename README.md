@@ -18,12 +18,13 @@ Wildlife cameras struggle at night, which is when many animals are most active. 
 4. **Announces the species** through an LLM-powered alert, by voice and by text, so nobody has to stare at the feed.
 5. **Stores every detection** in a database through SQLAlchemy.
 6. **Shows reports** in a Flask web app.
+<img width="1148" height="456" alt="image" src="https://github.com/user-attachments/assets/f24a4b32-6e7e-49c8-92f8-ef36b5bced1e" />
 
 
 ## Results
 
-| Claim | Number | How it was measured |
-|---|---|---|
+| Claim | Number
+|---|---
 | Detection accuracy in low-light and night conditions | 95% 
 | Species recognition gain from the GAN enhancer | 50% 
 | Report generation time after SQLAlchemy optimisation | 73%
@@ -42,14 +43,6 @@ Add your own real outputs to a `screenshots/` folder:
 
 Python, PyTorch, YOLOv8, OpenCV, GAN, Flask, SQLAlchemy, LLM-based alerts.
 
-## Run it
-
-```bash
-git clone [FILL IN: repo URL]
-cd [FILL IN: folder]
-pip install -r requirements.txt
-python [FILL IN: entry file, e.g. app.py]
-```
 
 Model weights and sample footage: [FILL IN: where to download them, or say they are not included].
 
